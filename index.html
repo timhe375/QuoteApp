@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-header">
       <h1>Quote App</h1>
-      <button>Get Quote</button>
+      <form onsubmit="return false">
+        <button class="header-form-button" id="btn">Get Quote</button>
+      </form>
     </header>
-    <main></main>
+    <section class="section" id="section">
+      <ol id="section-ol" class="section-ol"></ol>
+      <p>-Tim</p>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>

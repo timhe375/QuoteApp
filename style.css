@@ -1,3 +1,36 @@
+:root {
+  --SiteFontSize: 25px;
+}
+
 .header-header {
   background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-form-button {
+  background-color: blue;
+  border-radius: 7px;
+  color: white;
+}
+.section {
+  margin: 0 auto;
+  width: 40rem;
+}
+@media screen and (max-width: 700px) {
+  .section {
+    width: 20rem;
+  }
+}
+
+li:first-child {
+  margin-top: 7rem;
+  font-size: var(--SiteFontSize);
+}
+li {
+  font-size: var(--SiteFontSize);
+}
+p {
+  font-size: var(--SiteFontSize);
 }
